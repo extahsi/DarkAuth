@@ -1,0 +1,6 @@
+ # requirements.txt
+openai==0.10.5
+passlib==1.7.4
+selenium==4.1.0
+twilio==6.64.0
+scikit-learn==0.24.2
