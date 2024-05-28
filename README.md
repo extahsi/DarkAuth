@@ -1,4 +1,5 @@
 DarkAuth
+
 DarkAuth is a sophisticated authentication bypass and automated transfer tool designed to streamline the process of accessing accounts and performing transactions on websites such as PayPal. It combines advanced authentication methods, browser automation, machine learning optimization, and multi-factor authentication to provide a powerful and versatile solution for users.
 
 Features
