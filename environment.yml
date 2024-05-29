@@ -5,7 +5,6 @@ dependencies:
   - python=3.10
   - pip
   - bcrypt
-  - twilio
   - numpy
   - scikit-learn
   - flask
@@ -13,7 +12,7 @@ dependencies:
   - selenium
   - nodejs
   - pip:
+      - twilio
       - passlib
-      - flask
       - matplotlib
       - seaborn
