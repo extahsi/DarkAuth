@@ -26,7 +26,7 @@ jobs:
       run: |
         source "$HOME/miniconda/etc/profile.d/conda.sh"
         conda update -n base -c defaults conda -y
-        CONDA_NO_PLUGINS=true conda env update --file environment.yml --name base
+        CONDA_NO_PLUGINS=true conda env update --file environment.yml --name base --no-plugins
     - name: Lint with flake8
       run: |
         source "$HOME/miniconda/etc/profile.d/conda.sh"
@@ -57,3 +57,4 @@ jobs:
         key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
         restore-keys: |
           ${{ runner.os }}-build-
+
