@@ -1,0 +1,19 @@
+name: darkauth
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - bcrypt
+  - twilio
+  - numpy
+  - scikit-learn
+  - flask
+  - pytest
+  - selenium
+  - nodejs
+  - pip:
+      - passlib
+      - flask
+      - matplotlib
+      - seaborn
